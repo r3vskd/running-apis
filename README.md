@@ -72,17 +72,24 @@ a number of APIs to talk to a number of auxiliary systems and services (Legacy, 
 
 Here's a concise guide on testing CRUD operations for APIs.
 
- - Firstly, set up your testing environment with the necessary tools and frameworks like Postman or advanced automated testing suites if you're looking at scale.
+  - Firstly, set up your testing environment with the necessary tools and frameworks like Postman or advanced automated testing suites if you're looking at scale.
 
- - Create: This will involve sending a POST request to the API with a payload that includes new resource data. Ensure that the response status code reflects
-   successful creation (often a 201 code) and verify that the resource has indeed been created with all the correct attributes.
+  - Create: This will involve sending a POST request to the API with a payload that includes new resource data. Ensure that the response status code reflects
+    successful creation (often a 201 code) and verify that the resource has indeed been created with all the correct attributes.
 
- - Read: Test the 'Read' functionality by sending a GET request. The API should return the requested resource or a collection of resources. Validate the
-   correctness of the data returned and whether it meets the specification. Additionally, test for scenarios like non-existing resources or unauthorized access.
+  - Read: Test the 'Read' functionality by sending a GET request. The API should return the requested resource or a collection of resources. Validate the
+    correctness of the data returned and whether it meets the specification. Additionally, test for scenarios like non-existing resources or unauthorized access.
 
- - Update: Next, the 'Update' operation can often be the most critical. Utilizing PUT or PATCH requests, make changes to existing data and validate the success
-   of these operations by checking for appropriate status codes and performing a subsequent read operation.
+  - Update: Next, the 'Update' operation can often be the most critical. Utilizing PUT or PATCH requests, make changes to existing data and validate the success
+    of these operations by checking for appropriate status codes and performing a subsequent read operation.
 
- - Delete: Finally, the 'Delete' operation is tested by sending a DELETE request to remove a resource. Confirm the deletion by ensuring that subsequent READ
-   operations for that resource yield a 404 not found status code.
+  - Delete: Finally, the 'Delete' operation is tested by sending a DELETE request to remove a resource. Confirm the deletion by ensuring that subsequent READ
+    operations for that resource yield a 404 not found status code.
+
+  # The API 
+
+   The prices of the share market and cryptocurrencies go up and down ever so often, so Python is used to track
+   and predict the market for profitable investment. 
+   Even though the markets are volatile, Python automation can provide a trend for a better purchase or sale.
+   We will use python, django and the discord webhooks to send the markets info.
   
