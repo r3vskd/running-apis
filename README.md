@@ -28,4 +28,4 @@ A two-way interactive communication session between the user’s browser and a s
 The entire process involving this doesn’t even require having to poll the server in order to receive a reply.
 
 ## Evolution of APIs
- 
+ <img src = 'https://github.com/r3vskd/fig2glocate/blob/main/resources/Screenshot_1.png'></img>
