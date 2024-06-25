@@ -92,6 +92,3 @@ Django REST framework, a robust and versatile framework for creating efficient a
 you with a clear and structured approach to Django REST API, ensuring that both beginners and experienced developers can navigate 
 and utilize this powerful tool with ease. 
 
-Even though the markets are volatile, Python automation can provide a trend for a better purchase or sale.
-We will use python, django and the discord webhooks to send the markets info.
-  
