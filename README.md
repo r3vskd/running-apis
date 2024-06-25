@@ -86,10 +86,12 @@ Here's a concise guide on testing CRUD operations for APIs.
   - Delete: Finally, the 'Delete' operation is tested by sending a DELETE request to remove a resource. Confirm the deletion by ensuring that subsequent READ
     operations for that resource yield a 404 not found status code.
 
-  # The API 
+  # The First API - Django REST Framework
 
-   The prices of the share market and cryptocurrencies go up and down ever so often, so Python is used to track
-   and predict the market for profitable investment. 
-   Even though the markets are volatile, Python automation can provide a trend for a better purchase or sale.
-   We will use python, django and the discord webhooks to send the markets info.
+Django REST framework, a robust and versatile framework for creating efficient and scalable APIs. This guide is designed to provide 
+you with a clear and structured approach to Django REST API, ensuring that both beginners and experienced developers can navigate 
+and utilize this powerful tool with ease. 
+
+Even though the markets are volatile, Python automation can provide a trend for a better purchase or sale.
+We will use python, django and the discord webhooks to send the markets info.
   
