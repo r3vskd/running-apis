@@ -92,3 +92,24 @@ Django REST framework, a robust and versatile framework for creating efficient a
 you with a clear and structured approach to Django REST API, ensuring that both beginners and experienced developers can navigate 
 and utilize this powerful tool with ease. 
 
+## Step 1 -  set up a virtual envronment
+```
+python -m venv myenv
+```
+### Install Django
+```
+pip install django
+```
+### Adding Django REST Framework
+```
+pip install djangorestframework
+```
+### Verify the Installation
+```
+python -m django --version
+```
+Similarly, you can check the Django REST Framework version in your Python shell: 
+```
+import rest_framework
+print(rest_framework.__version__)
+```
