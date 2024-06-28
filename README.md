@@ -116,8 +116,6 @@ python -m django --version
 ```
 Similarly, you can check the Django REST Framework version in your Python shell: 
 ```
-
-
 import rest_framework
 print(rest_framework.__version__)
 ```
