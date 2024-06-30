@@ -2,9 +2,6 @@
 <img src = 'https://github.com/r3vskd/running-apis/blob/main/images/101-postmanaut-api.png' height="320" width="400" ></img>
 </p>
 
-## Abstract
-This is a basic example to get you started with creating APIs in Django using the Django REST Framework.
-
 ## APIs
  An API is an intermediate software agent that allows dependent applications to communicate with each other. APIs provide a set of protocols, 
  routines, and developer tools enabling software developers to extract and share information and let applications interact in an accessible manner.
@@ -89,11 +86,14 @@ Here's a concise guide on testing CRUD operations for APIs.
   - Delete: Finally, the 'Delete' operation is tested by sending a DELETE request to remove a resource. Confirm the deletion by ensuring that subsequent READ
     operations for that resource yield a 404 not found status code.
 
+  # Abstract
+   This is a basic example to get you started with creating APIs in Django using the Django REST Framework.
+
   # The First API - Django REST Framework
 
-Django REST framework, a robust and versatile framework for creating efficient and scalable APIs. This guide is designed to provide 
-you with a clear and structured approach to Django REST API, ensuring that both beginners and experienced developers can navigate 
-and utilize this powerful tool with ease. 
+   Django REST framework, a robust and versatile framework for creating efficient and scalable APIs. This guide is designed to provide 
+   you with a clear and structured approach to Django REST API, ensuring that both beginners and experienced developers can navigate 
+   and utilize this powerful tool with ease. 
 
 ## Step 1 - Set up a virtual envronment
 
