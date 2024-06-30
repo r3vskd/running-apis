@@ -2,6 +2,9 @@
 <img src = 'https://github.com/r3vskd/running-apis/blob/main/images/101-postmanaut-api.png' height="320" width="400" ></img>
 </p>
 
+## Abstract
+This is a basic example to get you started with creating APIs in Django using the Django REST Framework.
+
 ## APIs
  An API is an intermediate software agent that allows dependent applications to communicate with each other. APIs provide a set of protocols, 
  routines, and developer tools enabling software developers to extract and share information and let applications interact in an accessible manner.
@@ -200,5 +203,35 @@ Create a superuser to test authentication:
 ```
 python manage.py createsuperuser
 ```
+#### Testing the API
+Start the development server:
+```
+python manage.py runserver
+```
+You can now test the API using tools like curl, Postman, or your web browser.
+
+Get list of items (GET request):
+```
+curl -u yourusername:yourpassword http://127.0.0.1:8000/api/items/
+```
+Create a new item (POST request):
+```
+curl -u yourusername:yourpassword -X POST http://127.0.0.1:8000/api/items/ -H "Content-Type: application/json" -d '{"name": "Test Item", "description": "This is a test item."}'
+```
+Retrieve an item (GET request):
+```
+curl -u yourusername:yourpassword http://127.0.0.1:8000/api/items/1/
+```
+Update an item (PUT request):
+```
+curl -u yourusername:yourpassword -X PUT http://127.0.0.1:8000/api/items/1/ -H "Content-Type: application/json" -d '{"name": "Updated Item", "description": "This is an updated test item."}'
+```
+Delete an item (DELETE request):
+```
+curl -u yourusername:yourpassword -X DELETE http://127.0.0.1:8000/api/items/1/
+```
+
+
+
 
 
