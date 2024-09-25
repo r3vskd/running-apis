@@ -31,19 +31,19 @@ The entire process involving this doesn’t even require having to poll the serv
  <img src = 'https://github.com/r3vskd/running-apis/blob/main/images/evapis.png'></img>
   APIs interconnect individual systems that contain data about people, businesses and things, enable transactions, and create new products/services and business models. The popularity of APIs has grown significantly in the last decade or so.
 
-## Remote procedure call (RPC) - 1981
+### Remote procedure call (RPC) - 1981
 <img src = 'https://github.com/r3vskd/running-apis/blob/main/images/rpc.png'></img>
 
-## CORBA - 1991
+### CORBA - 1991
  <img src = 'https://github.com/r3vskd/running-apis/blob/main/images/corba.png'></img>
 
- ## SOAP - 1998
+### SOAP - 1998
   <img src = 'https://github.com/r3vskd/running-apis/blob/main/images/soap.png'></img>
 
-## REST - 2000
+### REST - 2000
   <img src = 'https://github.com/r3vskd/running-apis/blob/main/images/rest.png'></img>
 
-## GraphQL - 2015
+### GraphQL - 2015
   <img src = 'https://github.com/r3vskd/running-apis/blob/main/images/graph.png'></img>
 
 
