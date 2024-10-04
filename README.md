@@ -8,7 +8,7 @@
 
  Be it web APIs that connect web applications to other platforms or APIs used by IoT devices to collect and process data, the use of APIs has expanded like never before.
 
-## Types of web-based APIs
+### Types of web-based APIs
  
  ### REST-based APIs
 REST (Representational State Transfer) is one of the most lucrative categories of web-based APIs. Based on Uniform Resource Identifiers (URIs) and HTTP protocol, REST-based APIs use JSON for data formatting which is considered to be browser-compatible.
