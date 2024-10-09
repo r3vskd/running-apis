@@ -10,13 +10,13 @@
 
 ### Types of web-based APIs
  
- ### REST-based APIs
+### REST-based APIs
 REST (Representational State Transfer) is one of the most lucrative categories of web-based APIs. Based on Uniform Resource Identifiers (URIs) and HTTP protocol, REST-based APIs use JSON for data formatting which is considered to be browser-compatible.
 
- ### SOAP-based APIs
+### SOAP-based APIs
 SOAP-based APIs (Simple Object Access Protocol) use a type of protocol known as Simple Object Access Protocol, which is a common communication protocol. This helps them in providing higher levels of security and makes them better at accuracy as compared with the REST-based APIs.
 
- ### GraphQL-based APIs
+### GraphQL-based APIs
 one of the most advanced sets of web-based APIs where open-source data query and manipulation language is used. This makes it easier for forming a definitive pathway for the runtime that plays a vital role in fulfilling queries with the pre-existing data.
 
  ### XML-RPC
