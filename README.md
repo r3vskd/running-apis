@@ -2,7 +2,7 @@
 <img src = 'https://github.com/r3vskd/running-apis/blob/main/images/101-postmanaut-api.png' height="320" width="400" ></img>
 </p>
 
-## APIs
+# APIs
  An API is an intermediate software agent that allows dependent applications to communicate with each other. APIs provide a set of protocols, 
  routines, and developer tools enabling software developers to extract and share information and let applications interact in an accessible manner.
 
